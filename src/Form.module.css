@@ -1,0 +1,30 @@
+.input {
+  grid-row: 1/2;
+  width: 12rem;
+  position: relative;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.seaPage {
+  grid-row: 1/2;
+  display: flex;
+  margin-top: 1rem;
+  margin-right: 10rem;
+  width: 40rem;
+  height: 2rem;
+}
+.item {
+  text-decoration: none;
+  margin-left: 1rem;
+}
+.new {
+  grid-row: 3/4;
+  grid-column: 1/3;
+  margin: auto;
+}

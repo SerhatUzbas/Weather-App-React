@@ -1,0 +1,11 @@
+.container {
+  display: grid;
+  grid-template-rows: 4rem 30rem 30rem;
+  font-family: "Bebas Neue", cursive;
+  background: rgb(92, 35, 189);
+  background: radial-gradient(
+    circle,
+    rgb(11, 202, 145) 0%,
+    rgb(64, 132, 211) 100%
+  );
+}

@@ -1,0 +1,40 @@
+.card {
+  height: 24rem;
+  width: 16rem;
+
+  text-align: center;
+}
+
+.hot {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.4) 0%,
+      rgba(250, 4, 0, 0.5) 0%,
+      rgba(235, 230, 158, 0.6) 100%
+    ),
+    url("../public/summer.jpg");
+  background-size: cover;
+}
+.cold {
+  background: rgb(2, 0, 36);
+  background-image: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 0.4) 0%,
+      rgba(71, 65, 246, 0.5) 0%,
+      rgba(158, 181, 235, 0.6) 100%
+    ),
+    url("../public/winter.jpg");
+  background-size: cover;
+}
+
+.city {
+  padding-top: 1rem;
+}
+.date {
+  margin-top: 0rem;
+}
+
+.temp {
+  margin-top: 6rem;
+}
